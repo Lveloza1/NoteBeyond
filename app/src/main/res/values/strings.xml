@@ -7,10 +7,27 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="inicio">Inicio</string>
+    <string name="calendario">Calendario</string>
+    <string name="compromisos">Compromisos</string>
+    <string name="contactos">Contactos</string>
+    <string name="archivos">Archivos</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="about">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_subject">Registrar Asignatura</string>
+    <string name="txtNameSubject">Nombre</string>
+    <string name="txtTimeSubject">Hora</string>
+
+    <string-array name="days">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Miércoles</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
 </resources>

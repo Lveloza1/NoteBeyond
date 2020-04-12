@@ -2,19 +2,90 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <Button
+        android:id="@+id/btnSubject1"
+        style="@android:style/Widget.DeviceDefault.Light.Button"
+        android:layout_width="125dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="68dp"
+        android:background="#F0B3B2"
+        android:drawableBottom="@android:drawable/ic_menu_edit"
+        android:text="Lógica"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSubject2"
+        android:layout_width="136dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="68dp"
+        android:background="#8C9EFF"
+        android:drawableBottom="@android:drawable/ic_menu_edit"
+        android:text="Física"
+        app:layout_constraintStart_toEndOf="@+id/btnSubject1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSubject3"
+        android:layout_width="129dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:background="#FF80AB"
+        android:drawableBottom="@android:drawable/ic_menu_edit"
+        android:text="Cálculo II"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubject1" />
+
+    <Button
+        android:id="@+id/btnSubject4"
+        android:layout_width="129dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="#A7FFEB"
+        android:drawableBottom="@android:drawable/ic_menu_edit"
+        android:text="Fundamentos"
+        app:layout_constraintStart_toEndOf="@+id/btnSubject3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubject2" />
+
+    <Button
+        android:id="@+id/btnSubject5"
+        android:layout_width="128dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:background="#FF9E80"
+        android:drawableBottom="@android:drawable/ic_menu_edit"
+        android:text="Ética"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubject3" />
+
+    <Button
+        android:id="@+id/btnSubject6"
+        android:layout_width="133dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:background="#82B1FF"
+        android:drawableBottom="@android:drawable/ic_menu_edit"
+        android:text="Inglés"
+        app:layout_constraintStart_toEndOf="@+id/btnSubject5"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubject4" />
 
 </android.support.constraint.ConstraintLayout>
